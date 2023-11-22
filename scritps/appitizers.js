@@ -51,17 +51,17 @@ const Appitizers = () => {
 
     const appImage1 = document.createElement('div');
     appImage1.setAttribute('id', 'app1');
-    appImage1.style.backgroundImage = `url('${chickenImage}')`;
+    appImage1.style.backgroundImage = `url('imgs/chickenimg.jpg')`;
     imagesContainer.appendChild(appImage1);
 
     const appImage2 = document.createElement('div');
     appImage2.setAttribute('id', 'app2');
-    appImage2.style.backgroundImage = `url('${barbecueImage}')`;
+    appImage2.style.backgroundImage = `url('imgs/barbecueimg.jpg')`;
     imagesContainer.appendChild(appImage2);
 
     const appImage3 = document.createElement('div');
     appImage3.setAttribute('id', 'app3');
-    appImage3.style.backgroundImage = `url('${fishImage}')`;
+    appImage3.style.backgroundImage = `url('imgs/fishimg.jpg')`;
     imagesContainer.appendChild(appImage3);
 
     return list;
