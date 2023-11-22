@@ -23,12 +23,20 @@ const Navbar = () => {
     navLink2.innerHTML = 'Menu';
     list.appendChild(navLink2);
 
+    const navLink4 = document.createElement('a');
+    navLink4.setAttribute('id', 'appitizers');
+    navLink4.setAttribute('class', 'mx-2');
+    navLink4.setAttribute('href', '#');
+    navLink4.innerHTML = 'Appitizers';
+    list.appendChild(navLink4);
+   
     const navLink3 = document.createElement('a');
     navLink3.setAttribute('id', 'contact');
     navLink3.setAttribute('class', 'mx-2');
     navLink3.setAttribute('href', '#');
     navLink3.innerHTML = 'Contact';
     list.appendChild(navLink3);
+
 
     return list;
   };

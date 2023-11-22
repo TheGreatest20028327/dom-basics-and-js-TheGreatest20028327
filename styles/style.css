@@ -74,3 +74,23 @@ body {
   text-shadow: black 2px 2px;
   font-size: 50px;
 }
+
+.images-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#app1,
+#app2,
+#app3 {
+  flex: 1;
+  max-width: calc(33.33% - 20px); 
+  background-size: cover;
+  height: 300px;
+  border-radius: 10px;
+  padding-top: 120px;
+  color: white;
+  text-shadow: black 2px 2px;
+  font-size: 50px;
+}
+
