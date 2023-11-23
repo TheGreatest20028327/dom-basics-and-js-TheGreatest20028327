@@ -52,7 +52,7 @@ const Appitizers = () => {
   appImage2.style.backgroundImage = `url('imgs/barbecueimg.jpg')`;
   item1Container.appendChild(appImage2);
 
-  appList.appendChild(item1container);
+  appList.appendChild(item2container);
   
   const item3Container = document.createElement('div');
   item3Container.setAttribute('class', 'item-container');
@@ -73,7 +73,7 @@ const Appitizers = () => {
   appImage3.style.backgroundImage = `url('imgs/fishimg.jpg')`;
   item1Container.appendChild(appImage3);
 
-  appList.appendChild(item1container);
+  appList.appendChild(item3container);
 
   appContent.appendChild(appHeader);
   appContent.appendChild(appList);
