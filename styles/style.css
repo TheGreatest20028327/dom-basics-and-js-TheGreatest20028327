@@ -75,16 +75,20 @@ body {
   font-size: 50px;
 }
 
+
 .images-container {
   display: flex;
   justify-content: space-between;
+  flex-direction: row; 
 }
 
-#app1,
-#app2,
-#app3 {
+.item-container {
   flex: 1;
-  max-width: calc(33.33% - 20px); 
+  max-width: calc(33.33% - 20px);
+  margin-right: 10px; 
+}
+
+#app1, #app2, #app3 {
   background-size: cover;
   height: 300px;
   border-radius: 10px;
@@ -94,3 +98,13 @@ body {
   font-size: 50px;
 }
 
+#app1 h1, #app2 h1, #app3 h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#app1 p, #app2 p, #app3 p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
